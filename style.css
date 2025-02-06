@@ -1,4 +1,7 @@
-* {
+
+
+* 
+{
     box-sizing: border-box;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -215,4 +218,8 @@
     letter-spacing: 1.5px;
     text-align: center;
     display: block;
+  }
+
+  .audio-holder {
+    width: 540px;
   }
