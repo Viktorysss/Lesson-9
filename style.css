@@ -7,7 +7,7 @@
 }
 
 .container {
-  max-width: 1080px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -25,16 +25,11 @@
 }
 
 .logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #fff;
+  border-radius: 100%;
+  border: 0.5px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
-  color: #1A1A1A;
-  font-weight: bold;
 }
 
 .navigation-holder {
@@ -49,7 +44,7 @@
   text-decoration: none;
   color: #D1D1D1;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 13px;
 }
 
@@ -59,19 +54,9 @@
   position: relative;
 }
 
-.header-subtitle-text {
-  display: inline-block;
-  border-left: 1px solid #8C8C8C;
-  padding: 8px 0 8px 20px;
-  color: #8C8C8C;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 1.5px;
-  margin-bottom: 13px;
-}
 
 .header-title-text {
+  font-family: 'Times New Roman', Times, serif;
   font-size: 90px;
   font-weight: bold;
   color: #fff;
@@ -79,8 +64,14 @@
   line-height: 1;
 }
 
+.hr1 {
+  height: 1px;
+  position: relative;
+
+}
+
 .join {
-  background-color: #FEBE02;
+  background-color: #F6AD53;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -96,14 +87,15 @@
   font-weight: bold;
   border-radius: 6px;
 }
-
+  
 .header-info-block {
   display: flex;
   justify-content: space-between;
+  align-items: end;
 }
 
 .card-info {
-  max-width: 361px;
+  max-width: 400px;
 }
 
 .card-info-img {
@@ -111,43 +103,39 @@
 }
 
 .info-title {
-  font-size: 20px;
+  border-left: 1px solid #fff;
+  padding: 8px 0 8px 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
   font-weight: bold;
   color: #fff;
   letter-spacing: 0.5px;
   margin-top: 15px;
-  margin-bottom: 4px;
+  margin-bottom: 13px;
 }
 
-.info-subtitle {
-  font-size: 13px;
-  color: #8C8C8C;
-  font-weight: bold;
+.info-subtitle { 
+  font-size:16px;
+  font-weight: 400;
+  color: white;
   letter-spacing: 1.5px;
   display: block;
 }
 
 .about-subtitle-text {
+  font-family: 'Times New Roman', Times, serif;
   display: inline-block;
   border-left: 1px solid #fff;
   padding: 8px 0 8px 20px;
   color: #fff;
   font-weight: bold;
-  text-transform: uppercase;
-  font-size: 13px;
+  font-size: 25px;
   letter-spacing: 1.5px;
   margin-bottom: 13px;
 }
 
-.about-desc {
-  color: #D1D1D1;
-  max-width: 240px;
-  font-size: 14px;
-  line-height: 1.8;
-}
-
 .audio-holder {
-  width: 540px;
+  width: 720px;
 }
 
 .audio-block {
@@ -167,7 +155,7 @@
 
 .play-btn {
   display: flex;
-  background-color: blue;
+  background-color: #F6AD53;
   width: 40px;
   height: 40px;
   align-items: center;
@@ -178,7 +166,7 @@
 }
 
 .about-title {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   color: #fff;
   letter-spacing: 0.5px;
@@ -213,7 +201,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.25rem;
-  background-color: blue;
+  background-color: #F6AD53;
   color: white;
   cursor: pointer;
 }
@@ -234,6 +222,7 @@
 /* MAIN CONTENT */
 
 .course-section-title {
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
   font-size: 70px;
   color: #1A1A1A;
@@ -249,7 +238,7 @@
   width: 540px;
 }
 .card-small {
-  width: 360px;
+  width: 680px;
 }
 
 .img-container {
@@ -263,16 +252,8 @@
   padding-bottom: 20px;
   padding-left: 20px;
 }
-.img-card-1 {background-image: url(/img/card-1.png);}
+.img-card-1 {background-image: url(/img/игра\ пресолов.webp); border-radius: 8px;}
 
-.btn-time {
-  background-color: #fff;
-  border-radius: 5px;
-  color: #111;
-  padding: 6px 12px;
-  display: inline-block;
-  margin-right: 8px;
-}
 .btn-raiting {
   width: 77px;
   background-color: #111;
@@ -284,14 +265,8 @@
   justify-content: space-evenly;
 }
 
-.course-category {
-  font-size: 13px;
-  letter-spacing: 2px;
-  color: #BABABA;
-  font-weight: 400;
-  margin: 18px 0;
-}
 .course-title {
+  font-family: 'Times New Roman', Times, serif;
   font-size: 35px;
   font-weight: bold;
   letter-spacing: 0.3px;
@@ -306,10 +281,10 @@
   letter-spacing: 0.5px;
 }
 
-.img-card-2 {background-image: url(/img/card-2.png);}
+.img-card-2 {background-image: url(/img/властелин\ к.jpg); border-radius: 8px; }
 
 .footer {
-  background-color: #F5F6F8;
+  background-color: #1A1A1A;
   padding: 60PX 0;
 }
 
@@ -354,19 +329,20 @@
 }
 
 .course-name {
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   letter-spacing: 0.8px;
-  color: black;
+  color: white;
 }
 
 .course-count {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.5px;
-  color: #9A9A9B;
+  color: #D1D1D1;
 }
 
 .mob-btn {
@@ -481,4 +457,3 @@ max-width: 100%;
   font-size: 24px;
 }
 }
-
